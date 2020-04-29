@@ -1,0 +1,168 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #ddd;
+}
+
+
+.container{
+	width: 700px;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,.2);
+	margin: 50px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.con1 {
+	background-color: rgb(226, 80, 111);
+	padding: 10px;
+	height: 20px;
+	width: 680px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin-top: 50px;
+	top:0;
+}
+
+.menuju-link {
+	height: 50px;
+	width: 650px;
+	border: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+
+.menuju-link a{
+	color:white;
+	text-decoration: none;
+	
+}
+
+.menuju-link span a{
+	margin-top: 10px;
+	width: 220px;
+	background-color: rgb(226, 80, 111);
+	padding: 10px;
+	display: inline-block;
+}
+
+.gambar{
+	width: 650px;
+	border: 1px solid rgba(0,0,0,.1);
+	margin: auto;
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.gambar img {
+	width: 500px;
+	box-shadow: 0 0 7px 1px rgba(0,0,0,.3);
+}
+
+.produk{
+	width: 650px;
+	margin: auto;
+	border: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+}
+
+.produk span{
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.produk ul a{
+	text-decoration: none;
+}
+
+.produk ul li .abu {
+	background-color: #999;
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 4px;
+	color: white;
+}
+
+.produk ul li .merah {
+	background-color: #cf293a;
+	border-radius: 3px;
+	padding: 4px;
+	font-weight: bold;
+	color: white;
+}
+
+.produk ul li .pink {
+	background-color: #e97991;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 4px;
+}
+.produk ul li .pink:hover {
+	background-color: #1976ad;
+	transition: .7s;
+}
+
+.produk ul li .biru {
+	background-color: #008aff;
+	border-radius: 3px;
+	padding: 4px;
+	color: white;
+	font-weight: bold;
+}
+
+.produk ul li .biru:hover {
+	background-color: #1976ad;
+	transition: .6s;
+}
+
+.produk ul li .hijau:hover {
+	background-color: #628d33;
+	transition: .6s;
+}
+
+.produk ul li .hijau {
+	background-color: #7cb340;
+	border-radius: 3px;
+	padding: 4px;
+	color:white;
+	font-weight: bold;
+}
+
+.produk ul li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.footer {
+	width: 650px;
+	margin: auto;
+	border: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+	
+}
+
+.footer a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+ 	.container, .con1, .menuju-link, .gambar, .footer {
+ 		width: 100%;
+ 	}
+ 	.produk {
+		width: 100%;
+		
+ 	}
+ 	.produk ul li{
+ 		padding-top: 10px;
+ 	}
+}
